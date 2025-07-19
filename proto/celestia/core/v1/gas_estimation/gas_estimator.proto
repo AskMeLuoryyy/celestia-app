@@ -33,7 +33,7 @@ service GasEstimator {
 // - Unspecified Priority (default): This is equivalent to the Medium priority,
 // using the mean of all gas prices from the last 5 blocks.
 enum TxPriority {
-  // TX_PRIORITY_UNSPECIFIED none priority, the default priority level, which is
+  // TX_PRIORITY_UNSPECIFIED no priority, the default priority level, which is
   // equivalent to the TX_PRIORITY_MEDIUM priority.
   TX_PRIORITY_UNSPECIFIED = 0;
   // TX_PRIORITY_LOW low priority.
